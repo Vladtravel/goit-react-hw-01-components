@@ -1,0 +1,36 @@
+.FriendListItem {
+  border: 1px solid black;
+  padding: 3px;
+  display: inline-block;
+  width: 130px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.FriendListItem + .FriendListItem {
+  margin-left: 10px;
+}
+.Online {
+  composes: FriendListItem;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  margin-right: 20px;
+}
+.Offline {
+  composes: FriendListItem;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.avatarName {
+  font-weight: bold;
+  font-size: 20px;
+  color: gray;
+}

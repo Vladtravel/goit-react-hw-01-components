@@ -1,0 +1,26 @@
+.Table {
+  margin: 0 auto;
+}
+
+.TableHeadRow {
+  border-spacing: 0 10px;
+  font-weight: bold;
+}
+.HeadItem {
+  padding: 10px 20px;
+  background-color: chocolate;
+  color: #f9c941;
+  border-right: 2px solid;
+  font-size: 20px;
+}
+
+.HeadItem:last-child {
+  border-right: none;
+}
+.TableItem {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  font-size: 30px;
+  border: 2px solid #56433d;
+}

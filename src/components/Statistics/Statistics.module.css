@@ -1,0 +1,24 @@
+.StatisticsList {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.StatisticsItem {
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 15px;
+  background-color: cadetblue;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.StatisticsItem + .StatisticsItem {
+  margin-left: 10px;
+}
