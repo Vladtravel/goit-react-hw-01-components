@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 import styles from "./Statistics.module.css";
 
-const Statistics = ({ stats }) => (
+const Statistics = ({ stats, title }) => (
   <section>
-    <h2 className="statistics-title">Upload stats</h2>
+    <h2 className="statistics-title">{title}</h2>
     <ul className={styles.StatisticsList}>
       {stats.map((item) => (
         <li key={item.id} className={styles.StatisticsItem}>
