@@ -5,7 +5,7 @@ import styles from "./Statistics.module.css";
 
 const Statistics = ({ stats, title }) => (
   <section>
-    <h2 className="statistics-title">{title}</h2>
+    {title && <h2 className="statistics-title">{title}</h2>}
     <ul className={styles.StatisticsList}>
       {stats.map((item) => (
         <li key={item.id} className={styles.StatisticsItem}>
